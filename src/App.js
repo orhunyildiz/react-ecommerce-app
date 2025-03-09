@@ -23,7 +23,7 @@ export default class App extends Component {
     this.getProducts(category.id);
   }
   getProducts = (categoryId) => {
-    let url = "http://localhost:3001/products";
+    let url = "https://react-ecommerce-app-8d70.onrender.com/products";
     if (categoryId) {
       url += "?categoryId=" + categoryId;
     }

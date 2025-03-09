@@ -9,7 +9,7 @@ export default class CategoryList extends Component {
         this.getCategories();
     }
     getCategories = () => {
-        fetch("http://localhost:3001/categories").then(response => response.json()).then(data => this.setState({ categories: data }))
+        fetch("https://react-ecommerce-app-8d70.onrender.com/categories").then(response => response.json()).then(data => this.setState({ categories: data }))
     }
     render() {
         return (
