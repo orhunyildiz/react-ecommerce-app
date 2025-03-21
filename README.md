@@ -87,7 +87,7 @@ npm run dev
 ### React Application (Vercel)
 
 -   The React application is deployed on Vercel and can be accessed at:  
-    [https://react-ecommerce-app-delta-nine.vercel.app/](https://react-ecommerce-app-delta-nine.vercel.app/)
+    [https://react-ecommerce-app-test.vercel.app/](https://react-ecommerce-app-test.vercel.app/)
 -   **Vercel Settings:**
     -   **Build Command:** `npm run build`
     -   **Output Directory:** `build`
